@@ -2,7 +2,7 @@ void setup() {
   Serial.begin(115200);
 
   // MQTT
-  MQTTClient.setServer("192.168.1.200", 1883);
+  MQTTClient.setServer("IP", 1883);  // IP del broquer MQTT
 
   // PUERTA
   pinMode(pinPuerta, INPUT);
