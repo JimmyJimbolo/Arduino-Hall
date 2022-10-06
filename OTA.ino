@@ -1,7 +1,7 @@
 void InitOTA() {
   //ArduinoOTA.setPort(8266);
-  ArduinoOTA.setHostname("HALL");
-  ArduinoOTA.setPassword("hall13");
+  ArduinoOTA.setHostname("HOST");  // HOST con el que se identifica al arduino en las actualizaciones OTA
+  ArduinoOTA.setPassword("PASS");  // Password de acceso para la actualizacion
   ArduinoOTA.onStart([]() {
     String type;
     if (ArduinoOTA.getCommand() == U_FLASH) {
