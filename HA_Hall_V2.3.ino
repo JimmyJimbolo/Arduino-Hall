@@ -1,6 +1,6 @@
 // DOMOTICA: HA_Hall
 //
-// SENSORES: CO (MQ7), puerta, clima
+// SENSORES: Puerta, clima
 // MQTT (arduino/hall/...)
 // OTA
 //
@@ -51,4 +51,4 @@ float hume_anterior = 0;
 int clima_check = 0;
 
 // WEBHOOK
-String url = "https://trigger.macrodroid.com/5041bd55-6eb3-4310-aa9e-0ba623e2bbba/hall?";
+String url = "https://trigger.macrodroid.com/ID/hall?"; // ID = ID Webhook de tu dispositivo receptor
