@@ -14,3 +14,6 @@ Caracteristicas
 - Chequeo y envio de temperatura y humedad cada 5 minutos, solo si ha habido cambios desde la lectura anterior.
 - Deteccion de puerta abierta y envio de su duraccion en segundos.
 - Reenvio de datos al recibir un mensaje MQTT desde HA.
+
+v2.7
+ - 
