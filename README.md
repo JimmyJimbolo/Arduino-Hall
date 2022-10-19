@@ -14,6 +14,11 @@ Caracteristicas
 - Chequeo y envio de temperatura y humedad cada 5 minutos, solo si ha habido cambios desde la lectura anterior.
 - Deteccion de puerta abierta y envio de su duraccion en segundos.
 - Reenvio de datos al recibir un mensaje MQTT desde HA.
+- Deteccion de nivel de luz (LDR) para automatizaciones de iluminacion.
 
 v2.7
- - 
+ - Se fuerza que en la actualizacion se envien tambien temperatura y humedad.
+ - Se desactiva el envio de Webhook para probar notificaciones Whatssapp desde HA.
+ - Integracion de un sensor de luz LDR.
+ - Al abrir puerta, envia mqtt de puerta abierta y dato de LDR para automatizacion de iluminacion.
+ 
